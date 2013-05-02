@@ -1,73 +1,159 @@
-%This is my CV - August 2012
-\documentclass[margin]{res}
-\setlength{\textwidth}{5.0in} % length of text
+%General file for CV
+\documentclass[margin,10pt]{res}
+\setlength{\textwidth}{6in}
+\addtolength{\oddsidemargin}{-.475in}
+\addtolength{\evensidemargin}{-1.875in}% length of text
 \usepackage{hyperref}
 \usepackage[T1]{fontenc}
-%\usepackage{lmodern}
-%\usepackage{garamond}
-
+\usepackage{color}
+\usepackage[usenames,dvipsnames]{xcolor}
+% \setlength{\parskip}{0pt}
+% \setlength{\parsep}{0pt}
+% \setlength{\headsep}{0pt}
+% \setlength{\topskip}{0pt}
+% \setlength{\topmargin}{0pt}
+% \setlength{\topsep}{0pt}
+% \setlength{\partopsep}{0pt}
+\newcommand{\subs}[1]{\normalfont\emph{\color{Black!90}#1}}
+\newcommand{\secs}[1]{\normalsize{\section{\subs{#1}}}}
 \begin{document}
- \moveleft.5\hoffset\centerline{\large\bf Dami\'an Pablo (San Rom\'an Alerigi)}
- \moveleft\hoffset\vbox{\hrule width\resumewidth height 1pt}\smallskip
- \moveleft.5\hoffset\centerline{4700 KAUST, Thuwal, Western Province, 21534, Kingdom of Saudi Arabia.}
- %\moveleft.5\hoffset\centerline{Thuwal, West Province 21534,}
- %\moveleft.5\hoffset\centerline{Kingdom of Saudi Arabia.}
- \moveleft.5\hoffset\centerline{m: +966 544 700 801, email: \href{mailto:damian.sanroman@kaust.edu.sa}{damian.sanroman@kaust.edu.sa} }
-%\moveleft.5\hoffset\centerline{\href{mailto:damian.sanroman@kaust.edu.sa}{damian.sanroman@kaust.edu.sa}}
 
-\section{Objective} SPECAR specialist scientist.
+% personal information
+\moveleft.5\hoffset\centerline{\large\bf Dami\'an Pablo (San Rom\'an Alerigi)}
+\moveleft.5\hoffset\vbox{\hrule width 6in height 1pt}\smallskip
+\moveleft.5\hoffset\centerline{a: 4700 KAUST, P. O. Box 1850, Thuwal, 23955-6900, Kingdom of Saudi Arabia.}
+\moveleft.5\hoffset\centerline{m: +966 544 700 801, e: \href{mailto:damian.sanroman@kaust.edu.sa}{damian.sanroman@kaust.edu.sa} }
 
-\section{About} 
-\emph{Date of birth}: August 13th, 1985\\
-\emph{Place of birth}: Buenos Aires, Argentina.\\
-\emph{National of}: Argentina, Mexico.\\
-\emph{International experience:} lived in Argentina, Brazil, Uruguay, Mexico, United States, Spain, and Saudi Arabia
+%objective
+%\section{Purpose} Ph. D. Activity report
+
+% \section{Personal information}
+% \normalsize{~}
+% \normalsize{\section{\subs{Date of birth}} 13 August 1985
+% \section{\subs{Place of birth}} Buenos Aires, Argentina
+% \section{\subs{Nationality}} Argentina, Mexico
+% \section{\subs{International experience}} lived in Argentina, Brazil, Uruguay, Mexico, United States, Spain, and Saudi Arabia}
+
+\section{Education}
+
+\secs{~~}
+\normalsize{\section{\subs{Degree}}}
+Licenciatura in Physics (physicist).
+\normalsize{\section{\subs{Institution}}}
+College of Sciences, \emph{National Autonomous University of Mexico} (UNAM), Coyoac\'an, Mexico
+% {\bf Major Subjects}\\
+% \begin{ncolumn}{2}
+% 	\hline
+%     Quantum mechanics         	&  Classical Mechanics \\
+%     Thermodynamics 				&  Statistical Physics \\
+%     Electrodynamics				&  Classical wave optics \\
+%     Relativity 					&  Quantum optics \\
+%     Intro. to hydrodynamics 	&  Advance mathematics for physics \\
+% 	Real analysis 				&  Complex analysis \\
+% 	Ordinary differential equations & Partial differential equations \\
+% 	\hline
+% \end{ncolumn}
+\secs{Major subjects}
+\begin{ncolumn}{3}
+	\hline
+    Quantum mechanics         	&  Classical Mechanics 	&  Thermodynamics \\ 
+    Statistical Physics 		&  Electrodynamics		&  Classical wave optics \\
+    Relativity 					&  Quantum optics 		&  Intro. to hydrodynamics \\
+    Real analysis				&  Complex analysis 	&  Ordinary differential equations \\
+    Partial differential equations & Intro. to differential geometry & Adv. math for physics \\
+	\hline
+\end{ncolumn}
+\secs{Dates}
+September 2003 to March 2009\\
+
+\secs{Degree} Master in Science
+\secs{Institution} Electrical Engineering department, \emph{King Abdullah University of Science and Technology} (KAUST), Thuwal, Saudi Arabia 
+\secs{Major subjects}
+\begin{ncolumn}{2}
+	\hline
+    Semiconductor optoelectronic devices	&  Semiconductor Lasers and LEDs \\ 
+    Numerical methods 			&  Electromagnetics \\
+    Optics 	&  Introduction to MEMS \\
+    \hline
+\end{ncolumn}
+\secs{Dates} September 2009 to December 2010\\
+
+\secs{Degree} Philosoph\ae~Doctor, Ph. D.
+\secs{Institution} Electrical Engineering department, \emph{King Abdullah University of Science and Technology} (KAUST), Thuwal, Saudi Arabia
+\secs{Research topic} Light control, manipulation and transformation for photonic integrated circuits (PICs)
+\secs{Major achievements}
+\begin{itemize}
+	\item Study of the transient photon and electron induced refractive index modification in chalcogenide materials
+	\item Study of planar refractive index maps for light trapping and confinement (solution to the inverse scattering problem in the paraxial approximation)
+	\item Study of planar refractive index maps for light transformation (solution inverse electromagnetic problem for full vectorial description)
+	\item Development of numerical toolbox for the study of wave propagation in time-varying, non-linear, anisotropic and heterogeneous materials  
+\end{itemize} 
+
+\secs{Dates} January 2011 to August 2014 (expected graduation date) \\
 
 
-\section{Education} 
-2004 -- 2009, {Bachelor with Honors} in Physics (major) and Mathematics (minor), \emph{National Autonomous University of Mexico} (UNAM),
+\section{Personal Skills \& Qualifications}
 
-2009 -- 2010, {Master in Science} in Electrical Engineering. \emph{King Abdullah University of Science and Technology} (KAUST), 
-
-2010 -- 2014, {Ph. D.}, \emph{King Abdullah University of Science and Technology} (KAUST).\\
-
-
-\section{Technical Skills and Qualifications}
-
-\emph{Languages}\\
+\secs{~~}
+\secs{Languages}
 Spanish (proficient), English (proficient), French (mid-level).
 
-\emph{Computer }\\
- Proficient programming in Matlab, Mathematica, Fortran, Python, COMSOL, knowledge of high performance computing, with speciality in FEM and FDTD methods for \emph{wave propagation in time-dependant \& heterogeneous materials},  \emph{inverse problem solutions to the wave equation in heterogeneous media}, and \emph{transformation optics} 
+\secs{Computer}
+Proficient programming in Matlab, Mathematica, Fortran, Python, COMSOL, knowledge of high performance computing, with speciality in FEM and FDTD methods for \emph{wave propagation in time-dependant \& heterogeneous materials},  \emph{inverse problem solutions to the wave equation in heterogeneous media}, and \emph{transformation optics} 
 
-\emph{Non-academic}\\
-Leadership  in multicultural environments,  music theory, piano, improv theater. team problem solving
+\secs{Technical}
+Laser Safety, Laboratory Safety, Cleanroom Laboratory Safety, scanning electron microscopy (SEM), and focus ion beam (FIB), pulsed laser deposition (PLD), electron beam deposition (e-beam), photon and Ramman spectroscopy.
 
-\emph{Laboratory}\\
- Laser Safety, Laboratory Safety, Cleanroom Laboratory Safety, scanning electron microscopy (SEM), and focus ion beam (FIB), pulsed laser deposition (PLD), electron beam deposition (e-beam), photon and Ramman spectroscopy.\\
+\secs{Organizational and social}
+Teamwork, leadership, good ability to adapt  in multicultural environments, communication, logistics and strategic development.
+
+\secs{Artistic}
+Piano and music theory (14 years training), writing and literature (2 years coursework and training), photography (4 years training in workshops and coursework).\\
 
 
-\section{Profesional profile}
+\section{Professional profile}
 
-\emph{Fellowships and appointments}\\
-2006--2009 Junior Research Fellow at UNAM Advanced Optics Laboratory,\\ 
-March - September 2007 Research Fellow at the Joint Quantum Institute at the University of Maryland Atomic and Molecular Optics Laboratory,\\
-March - October 2008 Research Fellow at the Institut de Ciencies Fotoniques (ICFO),\\
-2009 - 2014 Research Fellow at KAUST Photonics Laboratory,\\
-2011 -  Research Fellow at Estrategia and Desarrollo - Consulting Group.\\
+\secs{~~}
+\secs{Fellowships and appointments}
+\begin{tabular}{p{3.8in} l}
+%Description & Period \\
+%\hline
+Junior Research Fellow \newline Advanced Optics Laboratory, College of Sciences UNAM \newline Description: experiments in quantum optics, development of a novel measurement strategy for concurrent triple coincidences and theory on properties of vacuum states \newline Supervisor: Victor M. Velazquez (vicvela@ciencias.unam.mx) \newline ~ & September 2006 to August 2009 
+\end{tabular}
 
-\emph{Education and teaching}\\
+\begin{tabular}{p{3.8in} l}
+Research Fellow \newline Joint Quantum Institute, Atomic and Molecular Optics Laboratory, University of Maryland at College Park \newline Description: Development of laser control system for quantum state measurement and preparation \newline Supervisor: Luis L. Orozco (lorozco@umd.edu) \newline & March 2007 to September 2007 \end{tabular}
+
+\begin{tabular}{p{3.8in} l}
+Research Fellow \newline Institut de Ciencies Fotoniques (ICFO) \newline Description: Development of a fast polarimetry system and density function measurement device for quantum states characterization \newline Supervisor: Morgan Mitchell (mmitchell@icfo.es) \newline & March 2008 to October 2008
+\end{tabular}
+
+\begin{tabular}{p{3.8in} l}
+Student Research Fellow \newline KAUST Photonics Laboratory, KAUST \newline Description: Numerical study of strategies for light trapping, confinement and transformation in planar refractive index structures. Development of a high performance library for the solution of wave propagation in superluminal perturbations, and time-varying-heterogeneous-anisotropic-non-linear materials \newline Supervisor: Boon S. Ooi (boon.ooi@kaust.edu.sa) \newline & September 2009 - today 
+\end{tabular}
+
+\begin{tabular}{p{3.8in} l}
+Research Fellow \newline Estrategia y Desarrollo A.C. \newline Description: consultant on development strategies for clusterization \newline Supervisor: Gerardo San Roman M (gerardosrm@itesm.mx) \newline & December 2011 - today
+\end{tabular}
+
+
+\secs{Education and teaching}
 February - July 2006 Teacher assistant for Electrodynamics II at UNAM College of Sciences,\\
 September - December 2011 Teacher assistant for Introduction to Statistics  (AMCS 210), KAUST,\\
-September - December 2012 Teacher assistant for Introduction to Statistics  (AMCS 210), KAUST.\\
+September - December 2012 Teacher assistant for Introduction to Statistics  (AMCS 210), KAUST.\\
 
 
-\section{Publications and Conferences}
-D. P. San-Roman-Alerigi, A. B. Slimane, T. K. Ng, M. Alsunaidi, and B. S. Ooi, \emph{On a pragmatic approach to optical analogues of gravitational attractors}, Proceedings of Photonics Global Conference (PGC), Singapore, December 2012
 
+\section{Publications}
+\secs{Journals}
 D. P. San-Roman-Alerigi, D. H. Anjum, Y. Zhang, X. Yang, A. B. Slimane, T. K. Ng, M. Alsunaidi, and B. S. Ooi, \emph{Electron irradiation induced reduction of the permittivity in Chalcogenide glass (As2S3) thin film}, Journal of Applied Physics, vol. 113, 044116, 2013.
 
 D. P. San-Roman-Alerigi, T. K. Ng, M. Alsunaidi, Y. Zhang, and B. S. Ooi, \emph{Generation of $J_0$-Bessel-Gauss beam by an heterogeneous refractive index map}, Journal of the Optical Society of America A,vol. 29, pp. 1252 -- 1258, 2012.
+
+
+
+\secs{Conferences}
+D. P. San-Roman-Alerigi, A. B. Slimane, T. K. Ng, M. Alsunaidi, and B. S. Ooi, \emph{On a pragmatic approach to optical analogues of gravitational attractors}, Proceedings of Photonics Global Conference (PGC), Singapore, December 2012
 
 D. P. San Roman Alerigi,T.K. Ng,  Y. Zhang, A. B. Slimane, and B. S. Ooi, \emph{Monolithic Silicon-based Gauss to J0 Bessel Beam Conventer}, Proceedings of PIERS 2012, Malaysia, 2012.
 
@@ -79,6 +165,9 @@ Yaping Zhang, Yangqin Gao, Damian P. San Roman Alerigi, Tien K. Ng, and Boon S. 
 
 D. P. San Roman Alerigi, N. Guerrero, and G. San Roman M., \emph{La Clusterización como Estrategia para el
 Desarrollo Económico y Social de una Región, Cluster del Conocimiento}, TCI 15th Annual Conference, Spain, 2012.
+
+\secs{Books & contributions}
+
 
 \section{Awards}
 2007 UMD-REU Research Scholarship,\\ 
